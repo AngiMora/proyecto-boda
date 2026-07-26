@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Envelope />
       <InvitationMessage />
-      <Countdown />
+      {/* <Countdown /> */}
       <Ceremony />
       <Reception />
       <DressCode />
