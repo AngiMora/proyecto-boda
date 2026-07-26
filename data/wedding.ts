@@ -25,7 +25,7 @@ export const wedding = {
 
   ceremony: {
   title: "Ceremonia",
-  subtitle: "Con inmensa alegría celebraremos la unión de nuestras vidas.",
+  subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento contigo.",
   church: "Parroquia Nuestra Señora del Rosario de Villa de Leyva",
   time: "4:00 p.m.",
   date: "26 de diciembre de 2026",
