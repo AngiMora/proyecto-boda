@@ -54,7 +54,7 @@ export default function Envelope() {
             "
           >
 
-            <h2 className="text-5xl font-serif mt-8 text-[#374151]">
+            <h2 className="text-5xl font-serif mt-10 text-[#374151]">
               ¡Nos Casamos!
             </h2>
 
