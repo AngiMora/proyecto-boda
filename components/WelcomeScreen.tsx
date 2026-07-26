@@ -38,7 +38,7 @@ export default function WelcomeScreen({ children }: Props) {
           onClick={() => setOpened(true)}
           className="mt-14 rounded-full border border-[var(--gold)] px-10 py-3 text-[var(--primary)] transition-all duration-500 hover:bg-[var(--gold)] hover:text-white"
         >
-          Descubrir la invitación
+          Abrir invitación
         </button>
 
       </div>
