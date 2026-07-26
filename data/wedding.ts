@@ -45,7 +45,7 @@ export const wedding = {
 
   dressCode: {
   title: "Código de Vestimenta",
-  /*subtitle: "Queremos que disfrutes de este día tan especial con nosotros.",*/
+  subtitle: "Acompañanos a disfrutar.",
   men: "Traje",
   women: "Vestido largo, (el color blanco está reservado para la novia)",
 },
@@ -59,7 +59,7 @@ export const wedding = {
   rsvp: {
   title: "Confirma tu Asistencia",
   subtitle:
-    "Será un honor contar con tu presencia. Agradecemos confirmar tu asistencia antes del 15 de octubre de 2026.",
+    "Será un honor contar con tu presencia.",
   contactName: "Angi y Julián",
   phone: "573214608551",
   deadline: "15 de octubre de 2026",
@@ -68,8 +68,8 @@ export const wedding = {
 },
 
 closing: {
-  title: "¡Los esperamos!",
+  title: "¡Te esperamos!",
   message:
-    "Gracias por ser parte de nuestra historia. Su presencia hará de este día un recuerdo aún más especial. Estamos ansiosos por celebrar junto a ustedes el inicio de esta nueva etapa de nuestras vidas.",
+    "Gracias por ser parte de nuestra historia. Tu presencia hará de este día un recuerdo aún más especial. Estamos ansiosos por celebrar el inicio de esta nueva etapa de nuestras vidas.",
 },
 };
