@@ -13,7 +13,7 @@ export const wedding = {
   hero: {
     monogram: "A & J",
     message:
-      "Con inmensa alegría queremos compartir con ustedes nuestro día especial",
+      "Con inmensa alegría queremos compartir con contigo nuestro día especial",
   },
 
   wedding: {
@@ -25,7 +25,7 @@ export const wedding = {
 
   ceremony: {
   title: "Ceremonia",
-  subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento contigo.",
+  subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
   church: "Parroquia Nuestra Señora del Rosario de Villa de Leyva",
   time: "4:00 p.m.",
   date: "26 de diciembre de 2026",
@@ -36,7 +36,7 @@ export const wedding = {
 
   reception: {
   title: "Recepción",
-  subtitle: "Después de la ceremonia nos encantará compartir este momento tan especial con ustedes.",
+  subtitle: "Después de la ceremonia nos encantará compartir otro momento especial contigo, nuestra celebración.",
   venue: "Hotel Casa de Los Fundadores",
   time: "6:00 p.m.",
   city: "Villa de Leyva, Boyacá",
@@ -45,7 +45,7 @@ export const wedding = {
 
   dressCode: {
   title: "Código de Vestimenta",
-  subtitle: "Queremos que disfrutes de este día tan especial con nosotros.",
+  /*subtitle: "Queremos que disfrutes de este día tan especial con nosotros.",*/
   men: "Traje",
   women: "Vestido largo, (el color blanco está reservado para la novia)",
 },
