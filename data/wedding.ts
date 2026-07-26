@@ -1,0 +1,76 @@
+export const wedding = {
+  couple: {
+    bride: {
+      firstName: "Angi Paola",
+      lastName: "Mora Chacón",
+    },
+    groom: {
+      firstName: "Julián Alfonso",
+      lastName: "Villamil Torres",
+    },
+  },
+
+  hero: {
+    monogram: "A & J",
+    message:
+      "Con inmensa alegría queremos compartir con ustedes nuestro día especial",
+  },
+
+  wedding: {
+    date: new Date("2026-12-26T16:00:00"),
+    day: "26",
+    month: "DICIEMBRE",
+    year: "2026",
+  },
+
+  ceremony: {
+  title: "Ceremonia",
+  subtitle: "Con inmensa alegría celebraremos la unión de nuestras vidas.",
+  church: "Parroquia Nuestra Señora del Rosario de Villa de Leyva",
+  time: "4:00 p.m.",
+  date: "26 de diciembre de 2026",
+  city: "Villa de Leyva, Boyacá",
+  address: "",
+  mapUrl: "",
+},
+
+  reception: {
+  title: "Recepción",
+  subtitle: "Después de la ceremonia nos encantará compartir este momento tan especial con ustedes.",
+  venue: "Casa de Buganvilias",
+  time: "6:00 p.m.",
+  city: "Villa de Leyva, Boyacá",
+  address: "Kilómetro 4, vía Villa de Leyva - Altamira, Villa de Leyva, Boyacá",
+  mapUrl: "",
+},
+
+  dressCode: {
+  title: "Código de Vestimenta",
+  subtitle: "Queremos que disfrutes de este día tan especial con nosotros.",
+  men: "Traje",
+  women: "Vestido largo",
+},
+
+  gift: {
+  title: "Lluvia de Sobres",
+  subtitle:
+    "Tu presencia será el regalo más valioso para nosotros. Si deseas tener un detalle adicional, con mucho cariño recibiremos tu obsequio mediante lluvia de sobres.",
+},
+
+  rsvp: {
+  title: "Confirma tu Asistencia",
+  subtitle:
+    "Será un honor contar con tu presencia. Agradecemos confirmar tu asistencia antes del 15 de octubre de 2026.",
+  contactName: "Angi y Julián",
+  phone: "573214608551",
+  deadline: "15 de octubre de 2026",
+  message:
+    "Hola Angi y Julián. Confirmo mi asistencia a su boda del 26 de diciembre de 2026. ¡Muchas gracias por la invitación!",
+},
+
+closing: {
+  title: "¡Los esperamos!",
+  message:
+    "Gracias por ser parte de nuestra historia. Su presencia hará de este día un recuerdo aún más especial. Estamos ansiosos por celebrar junto a ustedes el inicio de esta nueva etapa de nuestras vidas.",
+},
+};

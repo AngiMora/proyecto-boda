@@ -1,0 +1,84 @@
+@import "./styles/theme.css";
+@import "tailwindcss";
+
+:root {
+  --background: #FDFBF8;
+  --foreground: #334155;
+
+  --gold: #C8A96A;
+  --gold-dark: #B8944E;
+
+  --rose: #EFD8D8;
+  --sage: #B9C6B0;
+
+  --font-title: var(--font-title);
+  --font-body: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-title);
+}
+
+::selection {
+  background: var(--gold);
+  color: white;
+}
+:root{
+  --background: #F8F6F2;
+  --foreground: #2C2C2C;
+}
+
+body{
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.font-title{
+  font-family: var(--font-title);
+}
+/* ==========================
+   HERO
+========================== */
+
+.hero-background {
+  background: linear-gradient(
+    180deg,
+    #faf7f2 0%,
+    #f7f3ed 100%
+  );
+}
+/* ==========================
+   ANIMACIONES
+========================== */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 1s ease forwards;
+}
