@@ -18,7 +18,7 @@ export default function WelcomeScreen({ children }: Props) {
 
       <div className="max-w-xl text-center px-8">
 
-        <p className="font-title text-9xl text-[var(--gold)]">
+        <p className="font-title text-7xl text-[var(--gold)]">
           Angi & Julian
         </p>
 
