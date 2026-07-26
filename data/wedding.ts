@@ -37,11 +37,11 @@ export const wedding = {
   reception: {
   title: "Recepción",
   subtitle: "Después de la ceremonia nos encantará compartir este momento tan especial con ustedes.",
-  venue: "Casa de Buganvilias",
+  venue: "Hotel Casa de Los Fundadores",
   time: "6:00 p.m.",
   city: "Villa de Leyva, Boyacá",
-  address: "Kilómetro 4, vía Villa de Leyva - Altamira, Villa de Leyva, Boyacá",
-  mapUrl: "",
+  address: "Via Guananí, Km 1, Villa de Leyva, Boyacá",
+  mapUrl: "https://www.google.com/maps?rlz=1C1CHBF_esCO1126CO1126&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KTsFbWVA10GOMfwpK6vFxTTG&daddr=Via+Guanan%C3%AD,+Km+1,+Villa+de+Leyva,+Boyac%C3%A1",
 },
 
   dressCode: {
@@ -49,6 +49,7 @@ export const wedding = {
   subtitle: "Queremos que disfrutes de este día tan especial con nosotros.",
   men: "Traje",
   women: "Vestido largo",
+  subtitle: "El color blanco es reservado para la novia",
 },
 
   gift: {
