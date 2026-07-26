@@ -7,10 +7,10 @@ export default function InvitationMessage() {
 
         <SectionTitle
           title="Nos haría muy felices contar con tu presencia"
-          subtitle="Con inmensa alegría queremos compartir contigo uno de los días más importantes de nuestras vidas."
+          subtitle="Comparte con nosotros uno de los días más importantes de nuestras vidas."
         />
         <span className="block text-center text-xl text-[var(--gold)]">
-        ✦
+        ✦ ✦ ✦
         </span>
 
         <div className="mx-auto mt-9 max-w-3xl text-center">
