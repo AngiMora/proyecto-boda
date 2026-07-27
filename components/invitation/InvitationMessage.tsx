@@ -1,17 +1,54 @@
+import Image from "next/image";
 import SectionTitle from "../ui/SectionTitle";
 
 export default function InvitationMessage() {
   return (
-    <section className="bg-white px-6 py-24">
-      <div className="mx-auto max-w-2xl">
+    <section className="relative overflow-hidden bg-white px-6 py-24">
+
+      {/* Decoración superior izquierda */}
+      <Image
+        src="/images/gallery/botanical-corners.png"
+        alt=""
+        width={300}
+        height={300}
+        className="
+          absolute
+          -top-8
+          -left-8
+          opacity-70
+          pointer-events-none
+          select-none
+        "
+      />
+
+      {/* Decoración inferior derecha */}
+      <Image
+        src="/images/gallery/botanical-corners.png"
+        alt=""
+        width={300}
+        height={300}
+        className="
+          absolute
+          -bottom-8
+          -right-8
+          opacity-70
+          pointer-events-none
+          select-none
+        "
+      />
+
+      <div className="relative z-10 mx-auto max-w-2xl">
 
         <SectionTitle
           title="Nos haría muy felices contar con tu presencia"
           subtitle="Comparte con nosotros uno de los días más importantes de nuestras vidas."
         />
-        <span className="block text-center text-xl text-[var(--gold)]">
-        ✦ ✦ ✦
-        </span>
+
+        <div className="mt-6 flex items-center justify-center gap-4">
+          <div className="h-px w-14 bg-[var(--gold)]/40" />
+          <span className="text-[var(--gold)] text-lg">✦</span>
+          <div className="h-px w-14 bg-[var(--gold)]/40" />
+        </div>
 
         <div className="mx-auto mt-9 max-w-3xl text-center">
 
@@ -20,13 +57,16 @@ export default function InvitationMessage() {
             juntos un recuerdo inolvidable.
           </p>
 
-          <div className="mt-6 flex justify-center">
-            <div className="h-px w-24 bg-[var(--gold)]"></div>
+          <div className="mt-8 flex items-center justify-center gap-4">
+            <div className="h-px w-14 bg-[var(--gold)]/40" />
+            <span className="text-[var(--gold)] text-lg">✦</span>
+            <div className="h-px w-14 bg-[var(--gold)]/40" />
           </div>
 
         </div>
 
       </div>
+
     </section>
   );
 }

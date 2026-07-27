@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Envelope() {
   return (
     <section className="min-h-screen bg-[#F8F6F2] flex items-center justify-center px-6">
@@ -7,7 +9,6 @@ export default function Envelope() {
         <div className="relative">
 
           {/* Parte superior */}
-
           <div
             className="
               w-full
@@ -19,7 +20,6 @@ export default function Envelope() {
               overflow-hidden
             "
           >
-
             <div
               className="
                 absolute
@@ -39,34 +39,59 @@ export default function Envelope() {
                 border-t-[#C8A96A]
               "
             />
-
           </div>
 
           {/* Base */}
-
           <div
             className="
+              relative
               bg-white
               rounded-b-xl
               shadow-2xl
               p-16
               text-center
+              overflow-hidden
             "
           >
+
+            {/* Decoración superior izquierda */}
+            <div className="absolute -top-16 -left-16 opacity-80 pointer-events-none">
+              <Image
+                src="/images/gallery/botanical-corners.png"
+                alt=""
+                width={300}
+                height={300}
+              />
+            </div>
+
+            {/* Decoración inferior derecha */}
+            <div className="absolute -bottom-16 -right-16 opacity-80 pointer-events-none">
+              <Image
+                src="/images/gallery/botanical-overlay.png"
+                alt=""
+                width={320}
+                height={320}
+              />
+            </div>
 
             <h2 className="text-5xl font-serif mt-10 text-[#374151]">
               ¡Nos Casamos!
             </h2>
 
-            <p className="mt-10 text-xl text-gray-500 leading-9">
+            <div className="mt-6 flex items-center justify-center gap-4">
+          <div className="h-px w-14 bg-[var(--gold)]/40" />
+          <span className="text-[var(--gold)] text-lg">♥</span>
+          <div className="h-px w-14 bg-[var(--gold)]/40" />
+        </div>
 
+            <p className="mt-10 text-xl text-gray-500 leading-9">
               Hay momentos que cambian la vida para siempre.
 
-              <br /><br />
+              <br />
+              <br />
 
               Y no podríamos imaginar este día sin las personas que
               han sido parte de nuestra historia.
-
             </p>
 
             <button
@@ -82,9 +107,7 @@ export default function Envelope() {
                 text-lg
               "
             >
-
-              Acompañanos 
-
+              Acompáñanos
             </button>
 
           </div>
