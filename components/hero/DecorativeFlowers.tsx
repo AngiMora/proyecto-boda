@@ -5,11 +5,11 @@ export default function DecorativeFlowers() {
     <>
       {/* Primera ilustración */}
       <Image
-        src="/images/gallery/botanical-all.png"
+        src="/images/gallery/botanical-divider.png"
         alt=""
         fill
         priority
-        className="pointer-events-none select-none object-cover opacity-70"
+        className="pointer-events-none select-none object-cover opacity-60"
       />
 
     </>

@@ -13,9 +13,9 @@ export default function InvitationMessage() {
         height={300}
         className="
           absolute
-          -top-8
-          -left-8
-          opacity-70
+          -top-25
+          -left-25
+          opacity-60
           pointer-events-none
           select-none
         "
@@ -29,9 +29,9 @@ export default function InvitationMessage() {
         height={300}
         className="
           absolute
-          -bottom-8
-          -right-8
-          opacity-70
+          -bottom-25
+          -right-25
+          opacity-60
           pointer-events-none
           select-none
         "
