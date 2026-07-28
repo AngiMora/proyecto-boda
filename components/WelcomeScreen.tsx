@@ -41,7 +41,7 @@ export default function WelcomeScreen({ children }: Props) {
       {/* Ramas superiores */}
       <div className="absolute top-0 left-0 w-44 h-44 opacity-50 pointer-events-none">
         <svg
-          viewBox="0 0 220 220"
+          viewBox="0 0 100 100"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
