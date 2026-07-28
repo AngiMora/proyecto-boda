@@ -46,7 +46,7 @@ export const wedding = {
   dressCode: {
   title: "Código de Vestimenta",
   subtitle: "Acompañanos a disfrutar.",
-  men: "Traje",
+  men: "Traje, (el color azul es reservado para el novio)",
   women: "Vestido largo, (el color blanco está reservado para la novia)",
 },
 
