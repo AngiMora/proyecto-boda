@@ -26,7 +26,7 @@ export default function WelcomeScreen({ children }: Props) {
         alt=""
         fill
         priority
-        className="pointer-events-none select-none object-cover opacity-10"
+        className="pointer-events-none select-none object-cover opacity-60"
       />
 
       {/* Fondo botánico 2 */}
@@ -39,7 +39,7 @@ export default function WelcomeScreen({ children }: Props) {
       />
 
       {/* Ramas superiores */}
-      <div className="absolute top-0 left-0 w-44 h-44 opacity-50 pointer-events-none">
+      <div className="absolute top-0 left-0 w-44 h-44 opacity-10 pointer-events-none">
         <svg
           viewBox="0 0 100 100"
           fill="none"
