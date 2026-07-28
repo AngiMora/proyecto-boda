@@ -59,8 +59,8 @@ export default function Envelope() {
               <Image
                 src="/images/gallery/botanical-corners.png"
                 alt=""
-                width={300}
-                height={300}
+                width={250}
+                height={250}
               />
             </div>
 
@@ -69,8 +69,8 @@ export default function Envelope() {
               <Image
                 src="/images/gallery/botanical-overlay.png"
                 alt=""
-                width={320}
-                height={320}
+                width={250}
+                height={250}
               />
             </div>
 
