@@ -38,7 +38,7 @@ export default function Closing() {
           </p>
 
           <p className="mt-2 tracking-[0.35em] text-sm uppercase text-gray-500">
-            26 · Diciembre · 2026
+            05 · Diciembre · 2026
           </p>
         </div>
 
