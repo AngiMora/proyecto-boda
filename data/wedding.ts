@@ -18,7 +18,7 @@ export const wedding = {
 
   wedding: {
     date: new Date("2026-12-26T16:00:00"),
-    day: "26",
+    day: "05",
     month: "DICIEMBRE",
     year: "2026",
   },
@@ -26,21 +26,20 @@ export const wedding = {
   ceremony: {
   title: "Ceremonia",
   subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
-  church: "Parroquia Nuestra Señora del Rosario de Villa de Leyva",
-  time: "4:00 p.m.",
-  date: "26 de diciembre de 2026",
-  city: "Villa de Leyva, Boyacá",
-  address: "",
-  mapUrl: "",
+  church: "Parroquia del Ancianato",
+  time: "3:00 p.m.",
+  date: "05 de diciembre de 2026",
+  city: "Chiquinquirá, Boyacá",
+  
 },
 
   reception: {
   title: "Recepción",
   subtitle: "Después de la ceremonia nos encantará compartir otro momento especial contigo, nuestra celebración.",
-  venue: "Hotel Casa de Los Fundadores",
-  time: "6:00 p.m.",
-  city: "Villa de Leyva, Boyacá",
-  address: "Via Guananí, Km 1, Villa de Leyva, Boyacá",
+  venue: "Hacienda la Esperanza",
+  time: "5:00 p.m.",
+  city: "Chiquinquirá, Boyacá",
+  address: "",
 },
 
   dressCode: {
@@ -62,7 +61,7 @@ export const wedding = {
     "Será un honor contar con tu presencia.",
   contactName: "Angi y Julián",
   phone: "573214608551",
-  deadline: "15 de octubre de 2026",
+  deadline: "01 de octubre de 2026",
   message:
     "Hola Angi y Julián. Confirmo mi asistencia a su boda del 26 de diciembre de 2026. ¡Muchas gracias por la invitación!",
 },
