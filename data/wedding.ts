@@ -26,7 +26,7 @@ export const wedding = {
   ceremony: {
   title: "Ceremonia",
   subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
-  church: "Parroquia del Ancianato",
+  church: "Iglesia Señora del Rosario la Renovación",
   time: "3:00 p.m.",
   date: "05 de diciembre de 2026",
   city: "Chiquinquirá, Boyacá",
