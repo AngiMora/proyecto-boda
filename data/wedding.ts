@@ -27,7 +27,7 @@ export const wedding = {
   title: "Ceremonia",
   subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
   church: "Parroquia la Renovación",
-  time: "3:00 p.m.",
+  time: "2:00 p.m.",
   date: "05 de diciembre de 2026",
   city: "Chiquinquirá, Boyacá",
   
@@ -37,7 +37,7 @@ export const wedding = {
   title: "Recepción",
   subtitle: "Después de la ceremonia nos encantará compartir otro momento especial contigo, nuestra celebración.",
   venue: "Hacienda la Esperanza",
-  time: "5:00 p.m.",
+  time: "4:00 p.m.",
   city: "Chiquinquirá, Boyacá",
   address: "",
 },
