@@ -26,8 +26,8 @@ export const wedding = {
   ceremony: {
   title: "Ceremonia",
   subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
-  church: "Parroquia la Renovación",
-  time: "2:00 p.m.",
+  church: "Capilla la Inmaculada, Batallón de Infantería N°2 Mariscal Antonio José de Sucre",
+  time: "3:00 p.m.",
   date: "05 de diciembre de 2026",
   city: "Chiquinquirá, Boyacá",
   
