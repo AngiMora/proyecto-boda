@@ -37,7 +37,7 @@ export const wedding = {
   title: "Recepción",
   subtitle: "Después de la ceremonia nos encantará compartir otro momento especial contigo, nuestra celebración.",
   venue: "Hacienda la Esperanza",
-  time: "4:00 p.m.",
+  time: "5:00 p.m.",
   city: "Chiquinquirá, Boyacá",
   address: "",
 },
