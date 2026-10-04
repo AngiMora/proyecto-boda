@@ -61,7 +61,7 @@ export const wedding = {
     "Será un honor contar con tu presencia.",
   contactName: "Angi y Julián",
   phone: "573214608551",
-  deadline: "01 de octubre de 2026",
+  deadline: "15 de octubre de 2026",
   message:
     "Hola Angi y Julián. Confirmo mi asistencia a su boda del 05 de diciembre de 2026. ¡Muchas gracias por la invitación!",
 },
