@@ -27,7 +27,7 @@ export const wedding = {
   title: "Ceremonia",
   subtitle: "El amor nos reúne en este día tan especial, y deseamos compartir este momento con nuestros seres más queridos.",
   church: "Capilla la Inmaculada, Batallón de Infantería N°2 Mariscal Antonio José de Sucre",
-  time: "3:00 p.m.",
+  time: "2:00 p.m.",
   date: "05 de diciembre de 2026",
   city: "Chiquinquirá, Boyacá",
   
@@ -45,7 +45,7 @@ export const wedding = {
   dressCode: {
   title: "Código de Vestimenta",
   subtitle: "Acompañanos a disfrutar.",
-  men: "Traje, (el color azul es reservado para el novio)",
+  men: "Traje, (el color blanco está reservado para el novio)",
   women: "Vestido largo, (el color blanco está reservado para la novia)",
 },
 
@@ -61,7 +61,7 @@ export const wedding = {
     "Será un honor contar con tu presencia.",
   contactName: "Angi y Julián",
   phone: "573214608551",
-  deadline: "15 de octubre de 2026",
+  deadline: "23 de noviembre de 2026",
   message:
     "Hola Angi y Julián. Confirmo mi asistencia a su boda del 05 de diciembre de 2026. ¡Muchas gracias por la invitación!",
 },
